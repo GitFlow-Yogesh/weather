@@ -30,3 +30,6 @@ A responsive weather dashboard application built with **React** that displays cu
 **Yogesh B Tech CSE**
 
 ##Website link = https://weather-topaz-one.vercel.app/
+
+
+## How to start -> open terminal -> npm install -> npm run 
