@@ -1,0 +1,58 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/* #root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+} */
+.main-content {  /* wrap your main app content (excluding footer) in a div with this class) */
+  flex: 1;
+}
+footer {
+  margin: 0;
+  padding: 10px 0; /* adjust as needed */
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.footer-social a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #007BFF;
+}
+
+.footer-bottom {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-social a {
+    margin: 5px 0;
+  }
+}
